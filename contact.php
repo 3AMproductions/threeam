@@ -1,5 +1,4 @@
 <?php
-	ini_set('include_path','.:/home/pimp3am/includes');
 	require("ext.phpmailer.php");
 	session_start();
 	// this pages's info ('title','description','keywords','category')

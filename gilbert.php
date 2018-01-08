@@ -1,5 +1,4 @@
 <?php
-	ini_set('include_path','.:/home/pimp3am/includes');
 	// this pages's info ('title','description','keywords','category')
 	require_once('lib.html.php');
 	require_once('class.htdoc.php');
