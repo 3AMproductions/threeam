@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <Work rdf:about="http://3amproductions.net/">
+    <dc:title>3amproductions.net</dc:title>
+    <dc:date>2005</dc:date>
+    <dc:description>The web site of 3AM Productions, a web design and consulting firm dedicated to using web standards to create usable and accessible web sites that empower small businesses to achieve their goals online.</dc:description>
+    <dc:creator>
+		  <Agent><dc:title>Gilbert J. Velasquez</dc:title></Agent>
+      <Agent><dc:title>Jason R. Karns</dc:title></Agent>
+    </dc:creator>
+    <dc:rights><Agent><dc:title>3AM Productions</dc:title></Agent></dc:rights>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <dc:source rdf:resource="http://3amproductions.net/"/>
+    <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/"/>
+  </Work>
+  <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+    <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+    <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+    <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+  </License>
+</rdf:RDF>
+

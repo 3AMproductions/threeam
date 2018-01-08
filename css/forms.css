@@ -1,0 +1,68 @@
+/************************** forms styles ***************************/
+form {
+	padding: 2em 0 0 0;
+}
+
+form fieldset {
+	border: 0;
+}
+
+form fieldset.buttons {
+	text-align: center;
+	margin-top: .75em;
+}
+
+form div.row {
+	margin: 0;
+	padding: 1em 0 0 0;
+	clear: both;
+	text-align: center;
+}
+
+label.error {
+	color:#FFAA00;
+  margin:4em 0 0 0;
+  display:block;
+  clear:both;
+}
+
+div.row label {
+	float: left;
+  width: 5em;
+  text-align: right;
+	font-size: 1.15em;
+}
+
+input, textarea {
+	margin-left: 1.2em;
+	padding: .2em;
+	color: #AEC8CF;
+	background: #153244;
+	border: 3px double #AEC8CF;
+	float:left;
+}
+
+input:focus, textarea:focus {
+	color: #FFFFFF;
+	border-color: #FFAA00;
+	background: inherit;
+}
+
+/*
+input[type=submit], input[type=reset], */ /*Stupid IE*/
+fieldset.buttons input {
+	/* background: #67767B; */
+	float: none;
+	margin: 0 3.2em 0 -.9em;
+}
+
+input.disabled, input:disabled {
+	color: #3E484F;
+	border-color: #3E484F;
+}
+
+/*
+input, textarea {
+	border-radius: 7px;
+}
+*/

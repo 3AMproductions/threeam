@@ -1,0 +1,11 @@
+em.akey {
+	font-style: inherit;
+	text-decoration: none; /* should be inherit but IE... */
+}
+
+em.highlight_akey {
+	color: #FFAA00;
+	background: inherit;
+	text-decoration: underline;
+/*	font-weight: bold; */
+}

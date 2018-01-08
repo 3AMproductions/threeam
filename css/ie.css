@@ -1,0 +1,40 @@
+/* this file is for explorer only css styles:
+
+	- behaviours * (see XBL wrapper http://dean.edwards.name/moz-behaviors/)
+	- filters
+	- scrollbar colors
+	
+	for other css files to validate, this file must be linked inside of
+	an IE conditional comment
+*/
+
+/*
+adds [get|set]Attribute behavior for 'class' and 'for' attributes (previously 'className' and 'htmlFor')
+	.htc file adds get/set methods to existing DOM elements
+	.js file extends default get/set methods to work on document.createElement elements
+			(which requires extending the document.createElement method)
+ 
+* { behavior: url(/scripts/attributes.htc); }
+html { behavior: url(/scripts/lib.attributes.js); }
+*/ 
+
+/* style the scrollbar in IE */
+html {
+  scrollbar-3dlight-color:gray;
+  scrollbar-arrow-color:#FFAA00;
+  scrollbar-base-color:white;
+  scrollbar-darkshadow-color:black;
+  scrollbar-face-color:#153244;
+  scrollbar-highlight-color:#AEC8CF;
+  scrollbar-shadow-color:#001419;
+}
+
+/* allows :hover and :focus styling in IE on non-anchor elements */
+body {
+	behavior: url(/scripts/csshover.htc);
+}
+
+/* uses non-standard 'hand' cursor to replace standard 'pointer' cursor for link look-alikes */
+a abbr, a acronym {
+	cursor: hand;
+}
