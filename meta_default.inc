@@ -9,5 +9,4 @@
 	$keywords = 'xhtml,php,css,mysql,dom,javascript,ajax,db,database,rss,xml,html,standards,accessibility,usability,security,small business,open source,code,software,web applications,consulting,3am,productions,3am productions,web design,database-driven,dynamic';
 	$category = 'Computers/Internet/Web_Design_and_Development/Designers/Full_Service';
 	$title_separator =  ' // ';
-  @include_once("shortstat/inc.stats.php");
 ?>
