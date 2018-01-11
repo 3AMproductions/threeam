@@ -4,8 +4,8 @@
 Validation/Rating: XHTML, CSS, 508, AAA, WCAG, ICRA, RSS-(if we make a feed).
 Resources: copyright, help/accessibility, sitemap-(if site gets large enough), RSS-(if we make a feed) -->
   <span>
-		<a href="http://validator.w3.org/check?uri=www.3amproductions.net<?php echo $_SERVER['PHP_SELF']; ?>" rel="validate external" title="Validate as XHTML"><?php echo $abbr['xhtml']; ?></a> |
-  	<a href="http://jigsaw.w3.org/css-validator/validator?profile=css3&amp;uri=http://www.3amproductions.net<?php echo $_SERVER['PHP_SELF']; ?>" rel="validate external" title="Validate CSS"><?php echo $abbr['css']; ?></a> | 
+		<a href="http://validator.w3.org/check/referer" rel="validate external" title="Validate as XHTML"><?php echo $abbr['xhtml']; ?></a> |
+  	<a href="http://jigsaw.w3.org/css-validator/check/referer" rel="validate external" title="Validate CSS"><?php echo $abbr['css']; ?></a> | 
   	<a href="http://www.contentquality.com/mynewtester/cynthia.exe?Url1=http://www.3amproductions.net<?php echo $_SERVER['PHP_SELF']; ?>" rel="validate external" title="Validate as Section 508 Compliant"><?php echo $abbr['508']; ?></a>
 <!--
   	<a href="http://www.w3.org/WAI/WCAG1A-Conformance" rel="validate external" title="Validate WAI-A"><?php echo $abbr['wai-a']; ?></a> | 

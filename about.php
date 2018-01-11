@@ -58,8 +58,8 @@
   <dt>Validation</dt>
   <dd>
     <ul>
-      <li><a href="http://validator.w3.org/check?uri=www.3amproductions.net<?php echo $_SERVER['PHP_SELF']; ?>" rel="validate external" title="Validate as XHTML">XHTML</a></li>
-      <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.3amproductions.net<?php echo $_SERVER['PHP_SELF']; ?>" rel="validate external" title="Validate CSS">CSS</a></li> 
+      <li><a href="http://validator.w3.org/check/referer" rel="validate external" title="Validate as XHTML">XHTML</a></li>
+      <li><a href="http://jigsaw.w3.org/css-validator/check/referer" rel="validate external" title="Validate CSS">CSS</a></li> 
       <li><a href="http://feedvalidator.org/check.cgi?url=http://www.3amproductions.net/xml/rss.xml" rel="validate external" title="Validate RSS">RSS 2.0</a></li> 
       <li><a href="http://www.w3.org/WAI/WCAG1A-Conformance" rel="validate external" title="Validate WAI-A">WAI-A</a></li>
       <li><a href="http://www.w3.org/WAI/WCAG1AA-Conformance" rel="validate external" title="Validate WAI-AA">WAI-AA</a></li>
