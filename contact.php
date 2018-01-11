@@ -1,5 +1,5 @@
 <?php
-	require("ext.phpmailer.php");
+	/* require("ext.phpmailer.php"); */
 	session_start();
 	// this pages's info ('title','description','keywords','category')
 	require_once("class.htdoc.php");
@@ -24,7 +24,7 @@
 				<div id="leftcolumn">
 					<h2 id="contact">Contact Us</h2>
 <?php
-  $mail = new my_phpmailer();
+  /* $mail = new my_phpmailer(); */
   $mail = $_SESSION['mail'];
   $greeting = (empty($_SESSION['greeting']) ? "Just fill out the form and we'll get back to you as soon as possible." : $_SESSION['greeting']);
 
